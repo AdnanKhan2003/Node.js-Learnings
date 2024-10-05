@@ -1,0 +1,31 @@
+HOW THE WEB WORKS?
+- There's a client & a server
+- Whenever we searches for some webpage,
+the client reaches out to DNS (Domain Name
+Server) to get the real address i.e. IP Address
+of that domain name
+- Once it's done, client makes a request to the
+server with that given IP address
+(Node.js is used to run JavaScript outside of
+browser which also includes server)
+- With server-side code we then handle request
+and some response
+- This response data can be a HTML page, or some
+file, XML Doc, or maybe just JSON data
+- Both request and response contains headers 
+which is metadata required for communication to
+happen between these 2 components
+- HTTP/HTTPS protocol is used to make this 
+communication possible
+- HTTP/HTTPS protocol is just a set of predefined
+rules required for 2 devices to communicate
+- Before communication a connection between client
+and server is built through something called TCP
+Transmission Control Protocol
+- Once this connection is made, IP Internet Protocol
+divides data into small packets, so that it could
+travel faster through the routes
+- Packets after reaching destination is reassembled
+into 1 unit so original data
+- We write server-side code to security purpose like
+validating user input, connecting to database, etc.
