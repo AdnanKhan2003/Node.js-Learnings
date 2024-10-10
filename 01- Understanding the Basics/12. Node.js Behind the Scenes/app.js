@@ -55,7 +55,7 @@ handled in the current iteration
 - If there is NO event listeners registered then program might end but in our node web server case it never ends (until we do it manually)
 - Node.js keeps tracks of its open event listeners 
 - It has a counter reference or refs which is increment by 1 for every new callback that it is registered 
-(for every new future work it has to do)
+(for every new future work it has to do) (refs == 0)
 And it reduces that counter by 1 for each callback that it does NOT need anymore
 */
 
