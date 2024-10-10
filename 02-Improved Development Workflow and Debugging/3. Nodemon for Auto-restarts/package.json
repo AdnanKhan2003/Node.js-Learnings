@@ -1,0 +1,15 @@
+{
+  "name": "3.-nodemon-for-auto-restarts",
+  "version": "1.0.0",
+  "description": "nodemon for auto-restarts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Adnan",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

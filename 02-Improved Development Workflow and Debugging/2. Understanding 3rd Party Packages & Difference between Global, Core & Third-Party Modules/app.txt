@@ -1,13 +1,26 @@
-Global Modules
+I. TYPES of Modules:
+
+1. Global Modules
 -> Does NOT need to be INSTALLED
 -> Global objects like process, keys like const, let
 
-Core Modules
+2. Core Modules
 -> Needs to be IMPORTED
 -> Modules like 'http', 'fs'
 
-Third-Party-Packages
+3. Third-Party-Packages
 -> Needs to be INSTALLED and IMPORTED
 -> Installed via 'npm install '
 
-Difference between Dependencies & Dev-Dependencies
+II. Difference between Dependencies & Dev-Dependencies
+
+1. Dependencies
+-> Dependencies used during DEVELOPMENT
+
+2. Dev-Dependencies
+-> Dependencies used during PRODUCTION
+
+NOTE:
+-> Use 'nodemon' npm package for 'auto-restart' purpose
+-> Install it as 'dev-dependency'
+-> Running 'npm install' will result in installing missing packages or installing updated version of already installed packages

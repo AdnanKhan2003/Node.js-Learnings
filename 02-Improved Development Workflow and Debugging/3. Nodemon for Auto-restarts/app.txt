@@ -1,0 +1,9 @@
+* What does 'nodemon' do?
+-> It will re-start server whenever we save any changes
+
+* Should 'nodemon' be installed GLOBALLY or LOCALLY
+-> Installing LOCALLY is preferred
+-> Using 'nodemon app.js' would NOT work if this package is installed locally (you've to installed this package to install this package if you run the above command)
+
+NOTE: 
+-> Import it as 'dev-dependency' using 'npm install --save-dev' command
