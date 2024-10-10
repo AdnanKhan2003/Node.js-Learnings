@@ -1,0 +1,11 @@
+2 Types of Scripts in NPM
+
+1. Reserved
+-> Ex: 'start'
+-> Can run just after prepending npm before reserved script name(npm)
+
+2. Manual
+-> Ex: 'anything'
+-> Have to prepend 2 words before custom script name(npm run)
+
+NOTE: Must add double inverted comma on 'key', 'value' pairs EXCEPT for arrays, objects, numbers, true, false values

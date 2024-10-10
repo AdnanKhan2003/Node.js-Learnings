@@ -1,0 +1,13 @@
+Global Modules
+-> Does NOT need to be INSTALLED
+-> Global objects like process, keys like const, let
+
+Core Modules
+-> Needs to be IMPORTED
+-> Modules like 'http', 'fs'
+
+Third-Party-Packages
+-> Needs to be INSTALLED and IMPORTED
+-> Installed via 'npm install '
+
+Difference between Dependencies & Dev-Dependencies

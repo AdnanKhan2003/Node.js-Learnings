@@ -1,0 +1,12 @@
+{
+  "name": "1.-understanding-npm-scripts",
+  "version": "1.0.0",
+  "description": "Understanding npm scripts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
