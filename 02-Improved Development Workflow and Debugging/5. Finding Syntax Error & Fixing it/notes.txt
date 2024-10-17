@@ -1,0 +1,19 @@
+How Syntax errror can be?
+1. Typos
+2. Missing Syntax
+
+1. Typos (May occur in reserved keywords)
+=> 'const', 'let' may be written wrong like 'cons' or 'les'
+
+2. Missing Syntax
+=> Missing 'semicolon' (;) or 'curly braces' ({})
+
+How to Find them?
+
+1. Finding Typos Errors
+=> Terminal would show the line at which there may be typo error
+=> Have a good look at that line and you may find it
+
+2. Finding Missing Syntax Errors
+=> It may be inaccurate, here in this case, it just points to package in which error occurs
+=> Have a good look at code and analyse whether there is any missing 'curly-braces' ({}) or  'semicolon' (;)

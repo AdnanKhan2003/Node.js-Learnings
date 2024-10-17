@@ -1,0 +1,15 @@
+How we find out this compile time error
+
+Terminal gave us some hint
+
+Hint 1:
+You cann't write headers after they're sent to the client
+Hint 2: 
+Error occured at line 51 where we're resetting headers
+
+Mistake: 
+We forgot to return from the function once one of the if case is satisfied
+
+Solution: 
+Either add return statement at each if statement
+or wrap the bottom most code (which isn't inside if block) inside if statements

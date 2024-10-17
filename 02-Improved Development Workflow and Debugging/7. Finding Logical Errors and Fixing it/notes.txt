@@ -1,0 +1,11 @@
+Using Debugger
+Because it is a mistake in our code logically
+
+How to open Debugger?
+1. Go to 'Run' option at navbar of VSCode
+2. Select 'Start Debugger'
+3. Choose environment
+=> In this case we'll choose 'Node.js'
+And then debugger is started
+
+1. Go to view

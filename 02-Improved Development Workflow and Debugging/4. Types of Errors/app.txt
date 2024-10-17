@@ -1,0 +1,8 @@
+I. Types of Errors:
+
+1. Syntax Errors
+-> Typo or failed to add semicolon
+2. Runtime Errors
+-> Break code when it runs
+3. Logical Errors
+-> Nothing wrong with syntax just logically NOT correct
