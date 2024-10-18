@@ -1,0 +1,16 @@
+{
+  "name": "parsing-different-http-requests",
+  "version": "1.0.0",
+  "description": "Parsing different http requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Adnan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  }
+}
