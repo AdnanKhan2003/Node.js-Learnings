@@ -1,0 +1,15 @@
+{
+  "name": "working-with-express.js",
+  "version": "1.0.0",
+  "description": "Working with Express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Adnan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
