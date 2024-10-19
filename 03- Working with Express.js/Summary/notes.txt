@@ -1,0 +1,21 @@
+1. What is Express.js?
+- Express.js is a Node.js framework
+- A package that adds a bunch of 'utility functions & tools' and a clear set of rules on how the app should be built (middleware)
+- It is highly extensible and other packages can be plugged into it (middleware)
+
+2. Middleware, next() and res()
+- Express.js relies heavily on middleware functions-
+  you can easily add them by calling 'use()'
+- Middleware functions handle a request and should call 'next()' to forward that request to the next function in line or send a response
+
+3. Routing
+- You can filter requests by path and method
+- If you filter by method, paths are matched EXACTLY    ,
+otherwise, the FIRST SEGMENT of a URL is matched
+- You can use the express.Router to split your routes accross files elegantely
+
+4. Serve files
+- You're not limited to serving dummy text as a response
+- You can send files to your users using 'sendFile()' and 'path' module. 
+  e.g: HTML files
+- If a request is directly made for a file (e.g: a '.css' file is requested), you can enable static serving for such files via express.static()
