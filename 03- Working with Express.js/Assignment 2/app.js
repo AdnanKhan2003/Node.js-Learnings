@@ -15,7 +15,7 @@ app.use('/users', usersRoutes);
 app.use(mainRoutes)
 
 app.use((req, res) => {
-    res.send(path.join(rootDir, 'view', '404.html'));
-})
-1
+    res.sendFile(path.join(__dirname, 'view', '404.html'));
+});
+
 app.listen(3000);
