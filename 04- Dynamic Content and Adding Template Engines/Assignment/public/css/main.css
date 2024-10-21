@@ -1,0 +1,35 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    background-color: green;
+}
+.main-nav{
+    padding: 1rem 2rem;
+}
+.nav-items-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav-items{
+    list-style-type: none;
+    margin: 0 1rem 0 0;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+.content{
+    padding: 2rem 2rem;
+}
+.nav-links:hover,
+.active{
+    color: rebeccapurple;
+}
