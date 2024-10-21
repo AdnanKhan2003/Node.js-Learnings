@@ -1,0 +1,17 @@
+What is MVC?
+-> Separation of Concerns
+
+Model:
+-> Represent your data in your code
+-> Work with your data (e.g: fetch, save)
+
+View:
+-> What the users sees
+-> Decoupled from your application code
+
+Controller:
+-> Connecting your Models and your Views
+-> Contains the "in-between" logic
+
+Controllers are split across "Middleware Functions"
+Controllers -> Routes
