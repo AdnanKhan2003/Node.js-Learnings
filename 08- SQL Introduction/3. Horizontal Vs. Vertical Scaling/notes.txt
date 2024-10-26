@@ -1,0 +1,23 @@
+1) Horizontal Vs. Vertical Scaling
+
+Horizontal Scaling
+-> Add more servers (and merge Data into one Database)
+
+Vertical Scaling
+-> Improve Server Capacity / Hardware (memory or CPU)
+
+2) SQL Vs. NoSQL
+
+SQL
+1. Data uses Schemas
+2. Relations
+3. Data is distributed across multiple tables
+4. Horizontal scaling is difficult / impossible; Vertical scaling is possible
+5. Limitations for lots of (thousands) read & write queries per second
+
+NoSQL
+1. Schema-less
+2. No (or very few) Relations
+3. Data is typically merged/nested in a few collections
+4. Both Horizontal and Vertical scaling is possible
+5. Greate performance for mass read & write requests 
