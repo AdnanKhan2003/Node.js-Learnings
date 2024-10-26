@@ -1,0 +1,33 @@
+I) SQL vs NoSQL
+
+Goal:
+STORE data and make it ACCESSIBLE
+
+Use a Database: Quicker access than with a file
+1. SQL Databases eg: MySQL
+2. NoSQL Databases eg: MongoDB
+
+What is SQL?
+-> Structured Query Language
+-> It thinks in tables which has rows and columns
+-> It allows you to relate tables
+
+Core SQL Database Characteristics
+
+Data Schema
+-> How data should like, which fiels it should contain, which type of data each field STORE
+-> Strongly & strictly defined Schema
+
+Data Relations
+-> We relate our different tables with basically 3 important kinds of Relations
+
+1. One-to-One
+-> Each records fits 1 other record
+2. One-to-Many
+-> A records fits mutliple other record
+3. Many-to-Many
+-> Mutliple records fits 1 other mutliple record
+
+SQL Queries
+-> Queries are simply commands we use to interact with database
+Eg: SELECT * FROM users WHERE age > 28
