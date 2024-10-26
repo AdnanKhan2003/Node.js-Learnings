@@ -1,0 +1,21 @@
+1) NoSQL
+-> Instead of having 'schemas' & 'relations' it has other strengths
+
+2) SQL        NoSQL
+Tables     Collection
+Records    Documents
+
+- NoSQL does NOT have strict schema
+You can store multiple documents with different structure in the same collection
+- Fast and efficient
+
+3) NoSQL characteristics
+1. NO Data schema
+-> No structure required
+
+2. NO Data relations
+-> No/Few connections
+Instead try to copy data and have a collection with documents that work with their own 
+
+NOTE: You can relate documents but you dont' have to
+(and you should NOT do it too much or your queries become slow)
